@@ -1,0 +1,61 @@
+/* MAIN DE PRODUCTOS */
+
+.grid-container-productos {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+
+    .productos {
+      background-color: $body-bg-color;
+      padding: 20px;
+
+      ul {
+        flex: 1;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        overflow: auto;
+        padding-bottom: 100px;
+        }
+    }
+
+    .productos-comprar {
+      text-align: center;
+    }
+
+    .videos {
+      background-color: #eee;
+      padding: 20px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .video {
+        flex: 1;
+        margin-bottom: 50px;
+        }
+    }
+  
+  }
+  
+
+  /* Estilos para pantallas pequeñas 768 si no se rompe todo je */
+  @media screen and (max-width: 768px) {
+    .grid-container-productos {
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+      height: 100%;
+  
+    .videos {
+      display: none; /* Ocultar los videos en pantallas pequeñas */
+    }
+  }
+    .navbar-brand {
+      color: red;
+      font-size: map-get($font-tam, "regular");
+    }
+  }
+  
+  
+
+  /* FIN MAIN PRODUCTOS */

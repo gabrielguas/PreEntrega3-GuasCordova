@@ -1,0 +1,22 @@
+.container-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.mensajeServicio {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    opacity: 70%;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 10%;
+
+}
+.animacion:hover {
+    transform: rotate(360deg);
+    transition: 2s;
+}

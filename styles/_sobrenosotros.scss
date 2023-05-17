@@ -1,0 +1,34 @@
+main{
+
+.container-sobrenosotros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50%;
+    height: 100vh;
+
+
+    a:hover {
+        background-color: aqua;
+        transition: 2s;
+    }
+
+    a {
+        h2 {
+            margin-top: 35%;
+        }
+    }
+}
+
+
+.mensajeHistorias{
+        position: relative;
+        width: 80vw;
+        background-color: white;
+        text-align: center;
+        opacity: 90%;
+        margin-bottom: 10%;
+        border: solid black;
+        }
+    }
